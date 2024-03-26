@@ -1,0 +1,51 @@
+body{
+  background-color: bisque;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.P-Box{
+  width: 300px;
+  min-height: 300px;
+  background-color: black;
+color: #fff;
+text-align: center;
+padding: 15px;
+}
+.inside-P{
+  display: flex;
+  gap: 20px;
+ 
+}
+.inside-P input{
+  flex-basis: 75%;
+  padding: 3px;
+}
+.inside-P button{
+  cursor: pointer;
+}
+.P-length{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.P-length label{
+color: orange;
+}
+.P-length input{
+  width: 50px;
+  height: 20px;
+}
+.check{
+  display: flex;
+justify-content: space-between;
+padding: 0 17px 15px;
+}
+.btn{
+  width: 85%;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
